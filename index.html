@@ -1,8 +1,9 @@
 <!-- Füchse -->
   <!-- Sematik -> Struktur und Bedeutung (HTML) -->
     <!-- Header, Navigation, Main und Footer  -->
-   <!-- div und section -->
-    
+   <!-- division (div) -> neutrale Box zum Gruppieren zB CSS Styling  -->
+   <!-- section -> Inhaltlicher Abschnitt, eigenes Thema, eigene Überschrift  -->
+
 <!DOCTYPE html> 
 <html lang="de">
 <head>
@@ -14,8 +15,54 @@
     </head>
 
     <body>
-    <h1>Füchse</h1>
-    <p>Hier kommt ein spannender Text über Füchse. </p>
+      <header>
+        <div class="brand"FN2187</div>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#start">Start</a></li>
+          <li> <a href="#features">Feareres</a></li>
+          <li><a href="kontakt">Kontakt</a></li>
+        </ul 
+      </nav>
+      <main>
+
+        <section id="start ">
+          <h1>Füchse</h1>
+          <p>Hier kommt ein spannender Text über Füchse.</p>
+        </section>
+
+        <section id="features">
+            <h2>Nahrung </h2>
+            <p>Fleisch</p>
+            <div>
+               <h3>Essenstip</h3>
+               <p>sie sind Fleischfresser</p>
+            </div>
+
+            <div>
+              <h3>(Fleischfresser)</h3>
+              <p>wenn mann Fleischfresser ist isst man nur Fleisch</p>
+            </div>
+            
+            <div>
+            <h3>Jagtzeiten </h3> 
+            <p>Füchse jagen für gewöhndlich bei Nacht, aber manchmal jagen sie auch bei Nacht.</p>
+            </div>
+
+        </section>
+
+        <section id="kontakt">
+            <h2>Lebensraum</h2>
+            in den Wäldern 
+        </section>
+
+      </main>
+      <footer>
+          <small>Das ist eine Website von Finn Meier</small>
+      </footer>
+
 
 </script src="script.js"></script>
 </body>
