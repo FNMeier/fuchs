@@ -1,69 +1,113 @@
 <!-- Füchse -->
-  <!-- Sematik -> Struktur und Bedeutung (HTML) -->
-    <!-- Header, Navigation, Main und Footer  -->
-   <!-- division (div) -> neutrale Box zum Gruppieren zB CSS Styling  -->
-   <!-- section -> Inhaltlicher Abschnitt, eigenes Thema, eigene Überschrift  -->
 
-<!DOCTYPE html> 
-<html lang="de">
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fuchs</title>
+    <title>Füchse</title>
 
-   </link rel="stylesheet" href="style.css" /> 
-    </head>
+    <link rel="stylesheet" href="style.css" />
 
-    <body>
-      <header>
-        <div class="brand"FN2187</div>
-      </header>
+</head>
 
-      <nav>
-        <ul>
-          <li><a href="#start">Start</a></li>
-          <li> <a href="#features">Feareres</a></li>
-          <li><a href="kontakt">Kontakt</a></li>
-        </ul 
-      </nav>
-      <main>
+<body>
 
-        <section id="start ">
-          <h1>Füchse</h1>
-          <p>Hier kommt ein spannender Text über Füchse.</p>
-        </section>
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">Ideenwerkstatt</div>
+        </div>
+    </header>
+    <nav class="site-nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#leadtext">Start</a></li>
+                <li><a class="nav-link" href="#steckbrief">Steckbrief</a></li>
+                <li><a class="nav-link" href="#bilder">Bilder</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <section id="features">
-            <h2>Nahrung </h2>
-            <p>Fleisch</p>
+    <main class="site-main">
+        <div class="container">
+            <section id="leadtext" class="section">
+                <div class="hero-text">
+                    <h1>Rotfuchs</h1>
+                    <p>Auf dieser Website erfährst du spannende Informationen über Rotfüchse 
+                    </p>
+                    <div class="hero-card">
+                        <p>Füchse sind anpassungsfähige Raubtiere aus der Familie der Hundeartigen (Canidae). Am bekanntesten ist der Rotfuchs (Vulpes vulpes), der als häufigster Wildhund Europas auch in der Schweiz und in Städten weit verbreitet ist. [1, 2, 3, 4, 5]
+                    </div>
+ 
+                </div>
+            </section>
+
+            <section id="steckbrief" class="section">
+                <div class="cards">
+                    <div class="card">
+                        <h2>Grösse, Gewicht und Fortpflanzung</h2>
+                        <p>Beispieltext. Hier stehen alle wichtigen Infos über Rotfüchse.</p>
+                        <p>Größe:	35-50 cm (Schulterhöhe).
+Geschwindigkeit:	Bis 50 km/h (Kurzstrecke).
+Gewicht:	2-10 kg.
+Feinde:	Bären, Adler.
+Verbreitung:	Europa, Asien, Russland, Nordamerika.
+Ordnung:	Raubtiere.
+Merkmale:	Raubtier mit weiß-rotem Fell und buschigem Schwanz.
+</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Lebensraum</h2>
+                         <img src="./images/orca3.jpg" alt="Rotfuchs" class="responsive-img">
+                         <p>Der Rotfuchs ist extrem anpassungsfähig und bewohnt nahezu alle Lebensräume der nördlichen Erdhalbkugel – von Wäldern über offene Landschaften bis hin zu Städten.</p>
+                         <h3>Wälder: </h3>
+                        <p>Dichte und lichte Wälder bieten Unterschlupf und reichlich Beute.</p>
+                        <h3>Offenland:</h3>
+                        <p>Wiesen, Felder, Heckenlandschaften und Halbwüsten gehören ebenfalls zu seinem Revier.</p>
+                      </div>
+
+                    <div class="card">
+                        <h2>Jagdverhalten</h2>
+                        <p>Rotfuchs. Die bekannteste und charakteristischste Technik des Rotfuchs ist der Mäusesprung Der Fuchs lokalisiert unter der Oberfläche oder im Gras verstreute Nager mit seinem hervorragenden Gehör und Gesichtssinn. Er springt in einem steilen Winkel ab, gleicht den Flug mit seinem buschigen Schwanz aus und landet mit den Vorderpfoten exakt auf der Beute.</p>
+                        <h3></h3>
+                        <img src="./images/orca_hunt.jpg" alt= Rotfuchs class="responsive-img">
+                    </div>
+                    <div class="card">
+                        <h2>Nahrung</h2>
+                        <p>Der Rotfuchs ist ein anpassungsfähiger Allesfresser (Opportunist), dessen Speiseplan stark von der Jahreszeit und seinem Lebensraum abhängt.
+                            <h3>Kleinsäuger:</h3>
+                            Kleine Nagetiere – insbesondere Wühlmäuse – machen den größten Teil seiner Beute aus.
+                        <h3>Insekten & Würmer: </h3>
+                        im Sommer stehen auch Regenwürmer und Käfer z.B Laufkäfer auf dem Speiseplan.
+                        <h3>Vögel & Eier:</h3>
+                        Bodenbrüter, Jungvögel und gelegentlich Hühner.
+                        <h3>Weitere Tiere: </h3>
+                        Kaninchen, Feldhasen, Frösche, Reptilien sowie Aas (z. B. überfahrene Tiere oder verendetes Wild).
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="bilder" class="section">
+                <h2>Bildergalerie</h2>
+                <img src="./images/Killer_Whale_Types_2.jpg" alt="Rotfuchs" class="responsive-img2">
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
             <div>
-               <h3>Essenstip</h3>
-               <p>sie sind Fleischfresser</p>
+                <h5>Eine Website der IDEENWERKSTATT IBBF Schule Littau Dorf</h5>
             </div>
-
-            <div>
-              <h3>(Fleischfresser)</h3>
-              <p>wenn mann Fleischfresser ist isst man nur Fleisch</p>
-            </div>
-            
-            <div>
-            <h3>Jagtzeiten </h3> 
-            <p>Füchse jagen für gewöhndlich bei Nacht, aber manchmal jagen sie auch bei Nacht.</p>
-            </div>
-
-        </section>
-
-        <section id="kontakt">
-            <h2>Lebensraum</h2>
-            in den Wäldern 
-        </section>
-
-      </main>
-      <footer>
-          <small>Das ist eine Website von Finn Meier</small>
-      </footer>
-
-
-</script src="script.js"></script>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
